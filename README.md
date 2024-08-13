@@ -1,4 +1,4 @@
-# WGAN-GP on [50k Celeba Dataset 64x64 Dataset](https://www.kaggle.com/datasets/therealcyberlord/50k-celeba-dataset-64x64)
+# WGAN-GP on 50k Celeba Dataset
 
 This repository contains the implementation of a Wasserstein GAN with Gradient Penalty (WGAN-GP) trained on the CelebA dataset. The model is designed to generate 64x64 images of celebrity faces, using a deep convolutional architecture for both the generator and the critic.
 
@@ -20,6 +20,9 @@ This repository contains the implementation of a Wasserstein GAN with Gradient P
 - Matplotlib
 - torchvision
 - tqdm
+
+## Dataset
+The CelebA dataset is not included in this repository. You can download the dataset from [Kaggle](https://www.kaggle.com/datasets/therealcyberlord/50k-celeba-dataset-64x64). Once downloaded, ensure that the images are resized to 64x64 pixels before training.
 
 ## Training the Model
 
